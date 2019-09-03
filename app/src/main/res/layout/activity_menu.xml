@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="150dp"
+        android:visibility="visible"
+        android:src="@drawable/pollub_logo" />
+
+    <Button
+        android:id="@+id/buttonWeii"
+        android:drawableEnd="@drawable/weii_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="buttonWeiiOnClick"
+        android:text="@string/button_weii" />
+
+    <!--DO TESTÓW-->
+    <!--<Button-->
+        <!--android:id="@+id/buttonTestDatabase"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:onClick="buttonTestDatabaseOnClick"-->
+        <!--android:text="Test Database" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/buttonTestWifi"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:onClick="buttonTestWifiOnClick"-->
+        <!--android:text="Test Wifi" />-->
+</LinearLayout>
